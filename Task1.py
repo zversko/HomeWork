@@ -15,7 +15,7 @@ def create_list():
 def sum_odd(list):
     sum = 0
     for i in range(0, len(list)):
-        if i % 2 == 0:
+        if i % 2 != 0:
             sum += list[i]
     return sum
     

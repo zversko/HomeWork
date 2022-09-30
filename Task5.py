@@ -18,7 +18,7 @@ def nega_fibonacci(n):
 
 def main():
     list = [0]
-    for i in range(1,int(input('Введите последний индекс числа Фибоначчи '))):
+    for i in range(1,int(input('Введите последний индекс числа Фибоначчи '))+1):
         list.insert(0, nega_fibonacci(-i))
         list.append(fibonacci(i))
     print(list)

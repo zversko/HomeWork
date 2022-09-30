@@ -10,7 +10,7 @@ def create_list_frac_part():
         try:
             a = abs(float(input('> ')))
             list.append(a)
-            a = int((a - int(a)) * 100)
+            a = (int((a - int(a)) * 100))/100
             list_frac_part.append(a)
         except:
             break
